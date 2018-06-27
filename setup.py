@@ -6,6 +6,7 @@ setuptools.setup(
     name=NAME,
     version="0.1",
     description="send mail util",
+    packages=setuptools.find_packages(),
     author="lianrui.chu",
     author_email="lianrui.chu@17zuoye.com",
     license='BSD',
